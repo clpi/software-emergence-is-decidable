@@ -41,7 +41,7 @@ CHECKPOINTS = c5.CHECKPOINTS
 fails = []
 
 
-def fold_prefix(family, records, upto, truth, obs):
+def foldto(family, records, upto, truth, obs):
     reports = [{a: [obs[a]]} for a in range(N)]
     for rec in records[:upto]:
         c5.apply(rec, reports)
@@ -49,10 +49,10 @@ def fold_prefix(family, records, upto, truth, obs):
 
 
 for family in ("field", "region"):
-    famdir = os.path.join(R5, "results", family + "5")
-    summary = json.load(open(os.path.join(famdir, "live-rep1.json")))
+    home = os.path.join(R5, "results", family + "5")
+    summary = json.load(open(os.path.join(home, "live-rep1.json")))
     records = [json.loads(l) for l in open(
-        os.path.join(famdir, "live-rep1.jsonl"))]
+        os.path.join(home, "live-rep1.jsonl"))]
     truth, obs = c5.truth_obs(family, summary["seed"])
 
     # 3. append-only shape
@@ -64,34 +64,34 @@ for family in ("field", "region"):
               f"({len(records)} records, ticks non-decreasing)")
 
     # 1 + 2. prefix folds and restart closure at every checkpoint
-    ok_fold = ok_restart = 0
+    folded = rejoined = 0
     for t in CHECKPOINTS:
         upto = 2 * N * t
-        reports = fold_prefix(family, records, upto, truth, obs)
+        reports = foldto(family, records, upto, truth, obs)
         if c5.state_hash(family, reports) == summary["cuts"][str(t)]["hash"]:
-            ok_fold += 1
+            folded += 1
         else:
             fails.append(f"{family}: prefix fold mismatch at t={t}")
         state = c5.copy_reports(reports)
         for rec in records[upto:]:
             c5.apply(rec, state)
         if c5.state_hash(family, state) == summary["final"]:
-            ok_restart += 1
+            rejoined += 1
         else:
             fails.append(f"{family}: restart from t={t} mismatch")
-    print(f"{family}: prefix folds {ok_fold}/{len(CHECKPOINTS)}, "
-          f"restarts {ok_restart}/{len(CHECKPOINTS)}")
+    print(f"{family}: prefix folds {folded}/{len(CHECKPOINTS)}, "
+          f"restarts {rejoined}/{len(CHECKPOINTS)}")
 
     # 4. influence probe: 24 delivered records spread over the log
     delivered = [i for i, r in enumerate(records)
                  if r["vals_recv"] is not None and c5.appended_of(r) > 0]
     step = max(1, len(delivered) // 24)
     sample = delivered[::step][:24]
-    full = fold_prefix(family, records, len(records), truth, obs)
+    full = foldto(family, records, len(records), truth, obs)
     infl = 0
     for i in sample:
         reduced = records[:i] + records[i + 1:]
-        state = fold_prefix(family, reduced, len(reduced),
+        state = foldto(family, reduced, len(reduced),
                             truth, obs)
         if state != full:
             infl += 1
