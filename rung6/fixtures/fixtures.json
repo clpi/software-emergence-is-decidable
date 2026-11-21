@@ -1,0 +1,268 @@
+[
+ {
+  "mu": 1700,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   1700
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F1",
+  "expected": "EMERGENT"
+ },
+ {
+  "mu": 900,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   1700
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    500,
+    3
+   ]
+  },
+  "name": "F2",
+  "expected": "NOT-CERTIFIED"
+ },
+ {
+  "mu": 1700,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   1
+  ],
+  "cuts": [
+   900,
+   1700
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F3",
+  "expected": "NOT-CERTIFIED"
+ },
+ {
+  "mu": 1700,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   1700
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": false,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F4",
+  "expected": "NOT-CERTIFIED"
+ },
+ {
+  "mu": 1700,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   400
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F5",
+  "expected": "NOT-CERTIFIED"
+ },
+ {
+  "mu": 1400,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   1400
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": 1000,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F6",
+  "expected": "NOT-CERTIFIED"
+ },
+ {
+  "mu": 1700,
+  "lambda": 3,
+  "edges": [
+   {
+    "set": [
+     0,
+     1
+    ],
+    "weight": 900
+   },
+   {
+    "set": [
+     1,
+     2
+    ],
+    "weight": 800
+   }
+  ],
+  "dead": [
+   3
+  ],
+  "cuts": [
+   900,
+   1700
+  ],
+  "scan": "fixture scan",
+  "scan_confirmed": true,
+  "thresholds": {
+   "m1": null,
+   "c5_bound": [
+    1500,
+    3
+   ]
+  },
+  "name": "F7",
+  "expected": "NOT-CERTIFIED"
+ }
+]

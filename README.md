@@ -45,6 +45,14 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   attribution counterexample, the Lean dispositions, and what
   rung 6 inherits. The code, registration, proof file, and
   result artifacts are under rung5/.
+- RUNG6.md — rung 6 (the certificate) executed: the
+  registration, the threshold derivation over the rung 2–5
+  records and its failure, DECIDE's verdict on every
+  registered instance, the certificate format and the
+  independent checker's results, the Lean dispositions, the
+  premise debt carried, and the ladder's final state. The
+  decider, checker, registration, proof file, and result
+  artifacts are under rung6/.
 
 ## State, plainly
 
@@ -93,8 +101,32 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   premise for rung 6, unproved). The rung's compounding
   claim itself is NOT in this list: it is falsified, next
   section.
+- Rung 6 — the certificate, executed (RUNG6.md): DECIDE, the
+  exact decision procedure of SPEC.md section 5, is built and
+  verified at every point its tests reach — an independent
+  checker (no shared code with the decider) re-derived the
+  threshold computation and compared every field of all 25
+  certificates with 0 failures; the constructed fixture
+  battery passes 7/7 under both implementations, including a
+  positive instance the procedure certifies; 50 registered
+  band reweightings flip no verdict; and the Lean kernel
+  model proves T6.3 (decidability), T6.4's Lean half (seven
+  kernel controls), T6.5 (margin monotonicity), T6.6
+  (certificate checkability), and T6.7 in scoped form, with
+  T6.1 and T6.2 standing as named premises depended on by
+  nothing. The rung's precondition over the ladder's records
+  is NOT in this list: it fails, next section.
 
-**Falsified.** Rung 3's claim (SPEC.md section 2.2): in both
+**Falsified.** Rung 2's claim (noisy gossip at scale, executed
+in its own lane; record in the program's research archive,
+not in this repo): NO WIN at the registered margin in every
+decision battery — MAIN v1, MAIN2 v2, MAIN3 v3, and PROBE v3
+all decided against the live arm at the margin the frozen
+control's spread set. The narrower fact stands that the v3
+code's live arm beats every control mean and every control
+replicate at both scales.
+
+Rung 3's claim Rung 3's claim (SPEC.md section 2.2): in both
 registered families the joint system failed to beat at least
 one control arm by the registered margin — NO WIN in field3
 and NO WIN in region3, under the registered per-arm rule and
@@ -140,16 +172,50 @@ families and is dead as registered. The loss is printed in
 RUNG5.md with the exact curves, and it stands until a
 same-contract re-measure at a current pin says otherwise.
 
-**Proposed.** Everything else in SPEC.md: rung 2 (noisy gossip
-at scale — its execution is a separate lane), rung 6 (the
-certificate), the endgame interfaces, the optimization
-problem beyond its seed instance, and both domain
-registrations. The spec carries 27 theorem obligations for
-rungs 3–6; rung 3's eight, rung 4's six, and rung 5's six are
-dispositioned above and in RUNG3.md / RUNG4.md / RUNG5.md,
-and the rest are unproved, as the spec says.
+Rung 6's precondition (SPEC.md sections 5.5 and 5.7(c)): the
+rung 2–5 records do not separate under DECIDE's conditions.
+No battery in rungs 2–5 recorded emergence under its
+registered rule, so the emergence side of the threshold
+derivation is empty and M1 does not exist; DECIDE issues
+NOT-CERTIFIED for all 25 registered view instances, in
+agreement with every battery outcome. The failure survives
+the most generous re-reading of the rung-2 evidence: even
+granting the small battery emergence against its only
+control, the candidate M1 is 1,961 − 46,527 = −44,566, not
+positive. The claim "emergence is decidable from this
+interaction matrix," as a claim about these records, is
+falsified with it. The full derivation is printed in
+RUNG6.md, and it stands until a new battery — pre-registered
+margin, persisted views — separates at a current pin.
 
-**Not claimed.** Emergent intelligence, at any rung so far. Any
+**Proposed.** What remains of SPEC.md: the endgame
+integration — the certificate query (interface I2) exists as
+the standalone DECIDE artifact of rung 6 but is not a derived
+quantity in any derivation machinery, and interfaces I1
+(selection weights) and I3 (compounding signal) stand as
+measured data and a falsified claim respectively, not as
+interfaces; the optimization problem beyond its seed
+instance; and both domain registrations. The spec carries 27
+theorem obligations for rungs 3–6; rung 3's eight, rung 4's
+six, rung 5's six, and rung 6's seven are dispositioned above
+and in RUNG3.md / RUNG4.md / RUNG5.md / RUNG6.md. Four
+premises remain open across the ladder — rung 3's deadness
+obligation, rung 4's structure obligation, and rung 5's
+compounding and view-determination obligations — each with
+its discharge route (the derivation-graph audit of SPEC.md
+section 6.3) named and not yet executed.
+
+**The ladder is complete.** Six rungs executed; every
+registered capability claim falsified by its own battery;
+the measurement and certification stack verified end to end;
+no emergence found in any system the ladder tested. Any
+continuation is a new battery under a new registration, not
+a reinterpretation of these records.
+
+**Not claimed.** Emergent intelligence, at any rung. That
+DECIDE would certify a real positive instance — its positive
+fixture is constructed. The general form of T6.7's band
+stability at thresholds that exist. Any
 result in fuzzing or in NPC gameplay — no battery has run in
 either domain. Any optimality result beyond the seed instance.
 A claim in this program sits at its machine-checked evidence

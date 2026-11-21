@@ -1,0 +1,2706 @@
+{
+ "thresholds": {
+  "emergence_views": [],
+  "noemergence_views": [
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6",
+   "V7",
+   "V8",
+   "V9",
+   "V10",
+   "V11",
+   "V12",
+   "V13",
+   "V14",
+   "V15",
+   "V16",
+   "V17",
+   "V18",
+   "V19",
+   "V20",
+   "V21",
+   "V22",
+   "V23",
+   "V24",
+   "V25"
+  ],
+  "least_emergence_mu": null,
+  "greatest_noemergence_mu": 46527,
+  "m1": null,
+  "m1_exists": false,
+  "c5_bound": [
+   46527,
+   8
+  ],
+  "separates": false
+ },
+ "certificates": [
+  {
+   "instance": "V1",
+   "battery": "rung2-small3-v3",
+   "view_hash": "f5847defcf6c3b3520a8068e10b462ef0a126e273076366e7961ec349a62e0cb",
+   "provenance": "rung2 small3 live-noisy rep1 view (N=64, G=8)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung2 view.py)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (1961, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 1961,
+    "lambda": 8,
+    "rho": [
+     1961,
+     8
+    ],
+    "engaged_edges_hash": "ebcb07f8aeb2d6554bf7cbb3ed5a8aa31565ff4d091b82f0aea106e341302ac4",
+    "dead_axes": [
+     3
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung2 view.py)",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.1219253540039062e-05
+  },
+  {
+   "instance": "V2",
+   "battery": "rung3-field3",
+   "view_hash": "31604fed2a49816186b406e80ce485a3831683d0e4a82f247845e0184551f747",
+   "provenance": "rung3 field3 joint rep1 view at formation tick 8 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6940, 19) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6940,
+    "lambda": 19,
+    "rho": [
+     6940,
+     19
+    ],
+    "engaged_edges_hash": "5d54edf319da26efaa0c1873cfa7b5b40c851c9c477cea9154868c40b81d7f7e",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 1.0728836059570312e-05
+  },
+  {
+   "instance": "V3",
+   "battery": "rung3-field3",
+   "view_hash": "b711614c98a010c76e18c79c03b573a4af2bc15e0ecf4ae67ab727c369413777",
+   "provenance": "rung3 field3 joint rep1 view at formation tick 16 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6933, 19) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6933,
+    "lambda": 19,
+    "rho": [
+     6933,
+     19
+    ],
+    "engaged_edges_hash": "3681f6dcdbb549f47e72d6ef93f76b2035d6b62f111df7cdca26c79a5321a6a2",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 5.245208740234375e-06
+  },
+  {
+   "instance": "V4",
+   "battery": "rung3-field3",
+   "view_hash": "4a194df6c5ae658bad5d100d0a35c021cc8d9a2fced08b84249bbfe420bb55c6",
+   "provenance": "rung3 field3 joint rep1 view at formation tick 24 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6983, 19) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6983,
+    "lambda": 19,
+    "rho": [
+     6983,
+     19
+    ],
+    "engaged_edges_hash": "4aee4308c263a23026cec1c60d92272d0396d5c3bf73a9d6557d8ac1ec6155f6",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.814697265625e-06
+  },
+  {
+   "instance": "V5",
+   "battery": "rung3-region3",
+   "view_hash": "689b3096dc0ba5f953d91a10e3068ce2c33467de7f00901f723950b6f056616d",
+   "provenance": "rung3 region3 joint rep1 view at formation tick 8 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6942, 29) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6942,
+    "lambda": 29,
+    "rho": [
+     6942,
+     29
+    ],
+    "engaged_edges_hash": "08110e3736ace3ddf0a0af8642d8b43d2d65a1ad07f33a2e6d6726d0d4e7e78a",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.337860107421875e-06
+  },
+  {
+   "instance": "V6",
+   "battery": "rung3-region3",
+   "view_hash": "b3f218c3747d9f196eac992f04ba93d671789f1dfabf3243cc8b32a44b09f758",
+   "provenance": "rung3 region3 joint rep1 view at formation tick 16 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6988, 29) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6988,
+    "lambda": 29,
+    "rho": [
+     6988,
+     29
+    ],
+    "engaged_edges_hash": "ca53dcc249be12a0447bb01427f14718822648e9a001ab49a64b2da330436289",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.337860107421875e-06
+  },
+  {
+   "instance": "V7",
+   "battery": "rung3-region3",
+   "view_hash": "99778ce41b8430bd95534193af1aa284b115822a1b0317deadeb61916785dd2e",
+   "provenance": "rung3 region3 joint rep1 view at formation tick 24 (dead not evaluable above 11 axes, rung3 record)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6930, 29) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6930,
+    "lambda": 29,
+    "rho": [
+     6930,
+     29
+    ],
+    "engaged_edges_hash": "e3bcc0c4b62c30447aa6bc6ff709831d2f523e50ab6a0b4c625768c977915ecd",
+    "dead_axes": [],
+    "scan": "exact counterfactual folds, tick unit (rung3 view3.py); dead-axis scan not evaluable at 19/29 axes",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 5.245208740234375e-06
+  },
+  {
+   "instance": "V8",
+   "battery": "rung4-pair0",
+   "view_hash": "866f1f3985fbb22c4423e0adfe0955301c4b314f8c30e08d8b3c0d7d752111e2",
+   "provenance": "rung4 field source view rep1 (G=8)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung4 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (11708, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 11708,
+    "lambda": 8,
+    "rho": [
+     11708,
+     8
+    ],
+    "engaged_edges_hash": "d3483cb3c259f660fd20e0755b5015dd0229f0a9f846c4aa19b0b11ddbfb20b5",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung4 harness)",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.337860107421875e-06
+  },
+  {
+   "instance": "V9",
+   "battery": "rung4-pair1",
+   "view_hash": "06db60027a922f6276259d98fe34af0468dbe44d23d231c2ba36cb8f711d74aa",
+   "provenance": "rung4 region source view rep1 (G=8)",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung4 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (7018, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 7018,
+    "lambda": 8,
+    "rho": [
+     7018,
+     8
+    ],
+    "engaged_edges_hash": "aef43258d22a9ca64d1a67e76018c54fedfba6257642776576f9d6a599b4b161",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung4 harness)",
+    "cut_mus": null
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.337860107421875e-06
+  },
+  {
+   "instance": "V10",
+   "battery": "rung5-field",
+   "view_hash": "e58d129c8a866c7e2a0a2cbe22b30d0a930ee092c65abe4b649de0e7c07e8645",
+   "provenance": "rung5 field live rep1 cut view at tick 1",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (428, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 428,
+    "lambda": 8,
+    "rho": [
+     428,
+     8
+    ],
+    "engaged_edges_hash": "fbb8851c36cb432ad3c8957ff3f172156649af0c0feb06d924d959d4ce307662",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     428
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.0994415283203125e-06
+  },
+  {
+   "instance": "V11",
+   "battery": "rung5-field",
+   "view_hash": "f6cd2e619743d9d10d669c3ededab1ab2152662ae6090a70452b43e1d92bea0c",
+   "provenance": "rung5 field live rep1 cut view at tick 2",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (862, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 862,
+    "lambda": 8,
+    "rho": [
+     862,
+     8
+    ],
+    "engaged_edges_hash": "27534fe3066f8f1e1870f059920b5a9cca52fa18500aa0c5bf4bdfec272625fa",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     428,
+     862
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.5762786865234375e-06
+  },
+  {
+   "instance": "V12",
+   "battery": "rung5-field",
+   "view_hash": "6f6c887f7d7ea4a6a9c0dbb4ae1db620ee507701aa64b09678ed975e3b2922e2",
+   "provenance": "rung5 field live rep1 cut view at tick 4",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (1737, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 1737,
+    "lambda": 8,
+    "rho": [
+     1737,
+     8
+    ],
+    "engaged_edges_hash": "01c981cb15b07dec870ecb8f67ea6c455c105e0917f213543e02f189baeefd36",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     862,
+     1737
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.337860107421875e-06
+  },
+  {
+   "instance": "V13",
+   "battery": "rung5-field",
+   "view_hash": "61bc49fe7395e3772283c4bd46a4ba75251da3db3c273ee5082c0857aa4d2535",
+   "provenance": "rung5 field live rep1 cut view at tick 8",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (3482, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 3482,
+    "lambda": 8,
+    "rho": [
+     3482,
+     8
+    ],
+    "engaged_edges_hash": "c56807d9b7ea9f838c98a9941beaa6437ca62dddfc9848d733d35f3b892d2dbe",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     1737,
+     3482
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V14",
+   "battery": "rung5-field",
+   "view_hash": "f4879490c9dbef4afcf7b9058b4aac6811cf8862352571fa172c87813edffce7",
+   "provenance": "rung5 field live rep1 cut view at tick 16",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6943, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6943,
+    "lambda": 8,
+    "rho": [
+     6943,
+     8
+    ],
+    "engaged_edges_hash": "f984cdd296541731b728b3aca6a100d7b959ccc757fe0891d9657b1906d50082",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     3482,
+     6943
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V15",
+   "battery": "rung5-field",
+   "view_hash": "91dc79dd340907a4e01cbb73b3939a2d5832dc2413804260b454e2367183c5bb",
+   "provenance": "rung5 field live rep1 cut view at tick 32",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (9942, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 9942,
+    "lambda": 8,
+    "rho": [
+     9942,
+     8
+    ],
+    "engaged_edges_hash": "cfeaeb4a84b460ce8d5f8426cfd124043aaa76226ba54dc04ef600ae7e48cb4d",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     6943,
+     9942
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V16",
+   "battery": "rung5-field",
+   "view_hash": "b41991c9fbc32fe12ed734a729d298416e444205a6fb7978dbf75921f88cd81f",
+   "provenance": "rung5 field live rep1 cut view at tick 64",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (22122, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 22122,
+    "lambda": 8,
+    "rho": [
+     22122,
+     8
+    ],
+    "engaged_edges_hash": "336ef0ee249c8f4b54c875e68c1d8fdf07e5b2bd599e9032f025fbd1ef749ad3",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     9942,
+     22122
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V17",
+   "battery": "rung5-field",
+   "view_hash": "6547438b3c1fa8d69d2a8b4bbc6cfdd4bb3b93acc935b6c34fa9c832e2c964a1",
+   "provenance": "rung5 field live rep1 cut view at tick 128",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (46527, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 46527,
+    "lambda": 8,
+    "rho": [
+     46527,
+     8
+    ],
+    "engaged_edges_hash": "862230f986fd457f34ccb9aa1272845e4715a09adb4dc6982cfc6b2fefc77def",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     22122,
+     46527
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.5762786865234375e-06
+  },
+  {
+   "instance": "V18",
+   "battery": "rung5-region",
+   "view_hash": "0c082dc044baf6b870c2fa90c927eb591c5d10872c9b3c7354128a4beada367b",
+   "provenance": "rung5 region live rep1 cut view at tick 1",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (428, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 428,
+    "lambda": 8,
+    "rho": [
+     428,
+     8
+    ],
+    "engaged_edges_hash": "fbb8851c36cb432ad3c8957ff3f172156649af0c0feb06d924d959d4ce307662",
+    "dead_axes": [
+     0,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     428
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V19",
+   "battery": "rung5-region",
+   "view_hash": "dcffe726b5ace5a5cf99581cfd5bfbfc50f29b80800e1b507d7d798e847f76f2",
+   "provenance": "rung5 region live rep1 cut view at tick 2",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (874, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 874,
+    "lambda": 8,
+    "rho": [
+     874,
+     8
+    ],
+    "engaged_edges_hash": "549508b1ed917e8c38f1d52d7a6f31fcca91e5d1a0560f56cd3273a155bd1d6f",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     428,
+     874
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V20",
+   "battery": "rung5-region",
+   "view_hash": "fa6be6f648951e1e8ca1d8283f802b44f998f107c7fd2f01e3d28e499c662c43",
+   "provenance": "rung5 region live rep1 cut view at tick 4",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (1764, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 1764,
+    "lambda": 8,
+    "rho": [
+     1764,
+     8
+    ],
+    "engaged_edges_hash": "1217823fc8c1fc764c500ea435e750ef50880d69b3de146fee562165d3cc4526",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     874,
+     1764
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 3.0517578125e-05
+  },
+  {
+   "instance": "V21",
+   "battery": "rung5-region",
+   "view_hash": "0a9e67ab497a6692642a926fdfa92885df4693b6e77cafc2643827f400194acb",
+   "provenance": "rung5 region live rep1 cut view at tick 8",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (2668, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 2668,
+    "lambda": 8,
+    "rho": [
+     2668,
+     8
+    ],
+    "engaged_edges_hash": "c04a7345a70a92b097bd8fa03aabab67314da8d2abace876e818164b8eba9b18",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     1764,
+     2668
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V22",
+   "battery": "rung5-region",
+   "view_hash": "72fb5ce85958369c4d115a75ddc0a8357d09f61df898f3793b3183ddfa8d86d0",
+   "provenance": "rung5 region live rep1 cut view at tick 16",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (3467, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 3467,
+    "lambda": 8,
+    "rho": [
+     3467,
+     8
+    ],
+    "engaged_edges_hash": "865eaf384533d58bb8dfceb4cf70e3a7a92ad51753e11379153477e2d90199b4",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     2668,
+     3467
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V23",
+   "battery": "rung5-region",
+   "view_hash": "53a7a785c49a7dae839618b176548a20e124a31fd0614b1cceba9aa9bc595fee",
+   "provenance": "rung5 region live rep1 cut view at tick 32",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (6055, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 6055,
+    "lambda": 8,
+    "rho": [
+     6055,
+     8
+    ],
+    "engaged_edges_hash": "377a0d65dd28474b243514f711092aebe27df3af9bd16b7d8e5ad01ef1a4c9fc",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     3467,
+     6055
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.6226043701171875e-06
+  },
+  {
+   "instance": "V24",
+   "battery": "rung5-region",
+   "view_hash": "942f47e38fcbc000c9868040af751fac8c877528675b12ac79c36a918eca0444",
+   "provenance": "rung5 region live rep1 cut view at tick 64",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (14381, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 14381,
+    "lambda": 8,
+    "rho": [
+     14381,
+     8
+    ],
+    "engaged_edges_hash": "e85d76d48e5bed735edea97621d147c7c49af9d25c9ef3227a6050b37f70fb52",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     6055,
+     14381
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 2.86102294921875e-06
+  },
+  {
+   "instance": "V25",
+   "battery": "rung5-region",
+   "view_hash": "4ea6bde610c4b05186fd9f3648077ed06a33ca32837d09e24f2094d862671d7c",
+   "provenance": "rung5 region live rep1 cut view at tick 128",
+   "threshold_derivation": {
+    "emergence_views": [],
+    "noemergence_views": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "V7",
+     "V8",
+     "V9",
+     "V10",
+     "V11",
+     "V12",
+     "V13",
+     "V14",
+     "V15",
+     "V16",
+     "V17",
+     "V18",
+     "V19",
+     "V20",
+     "V21",
+     "V22",
+     "V23",
+     "V24",
+     "V25"
+    ],
+    "least_emergence_mu": null,
+    "greatest_noemergence_mu": 46527,
+    "m1": null,
+    "m1_exists": false,
+    "c5_bound": [
+     46527,
+     8
+    ],
+    "separates": false
+   },
+   "evaluations": {
+    "C1": {
+     "state": "FAIL",
+     "witness": "threshold does not exist: M1 undefined or not positive (registration section 2)"
+    },
+    "C2": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; dead-axis scan printed separately"
+    },
+    "C3": {
+     "state": "HOLD",
+     "witness": "every size>=2 edge dependence-confirmed by the exact scan at the registered unit: exact counterfactual scan, tick unit (rung5 harness)"
+    },
+    "C4": {
+     "state": "NOT EVALUABLE",
+     "witness": "bar is M1/2 and M1 does not exist; per-cut mus printed where persisted"
+    },
+    "C5": {
+     "state": "FAIL",
+     "witness": "rho (2616, 8) vs bound (46527, 8) (lexicographic, strict)"
+    }
+   },
+   "witnesses": {
+    "mu": 2616,
+    "lambda": 8,
+    "rho": [
+     2616,
+     8
+    ],
+    "engaged_edges_hash": "60d911d02e0be3e50a5c8b084bc3e5022aaa5ecdd82e04a73f04c965bdabe560",
+    "dead_axes": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "scan": "exact counterfactual scan, tick unit (rung5 harness)",
+    "cut_mus": [
+     14381,
+     2616
+    ]
+   },
+   "verdict": "NOT-CERTIFIED",
+   "decide_wall_s": 5.0067901611328125e-06
+  }
+ ],
+ "fixtures": [
+  {
+   "fixture": "F1",
+   "expected": "EMERGENT",
+   "got": "EMERGENT",
+   "conditions": {
+    "C1": "HOLD",
+    "C2": "HOLD",
+    "C3": "HOLD",
+    "C4": "HOLD",
+    "C5": "HOLD"
+   }
+  },
+  {
+   "fixture": "F2",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "FAIL",
+    "C2": "HOLD",
+    "C3": "HOLD",
+    "C4": "HOLD",
+    "C5": "HOLD"
+   }
+  },
+  {
+   "fixture": "F3",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "HOLD",
+    "C2": "FAIL",
+    "C3": "HOLD",
+    "C4": "HOLD",
+    "C5": "HOLD"
+   }
+  },
+  {
+   "fixture": "F4",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "HOLD",
+    "C2": "HOLD",
+    "C3": "FAIL",
+    "C4": "HOLD",
+    "C5": "HOLD"
+   }
+  },
+  {
+   "fixture": "F5",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "HOLD",
+    "C2": "HOLD",
+    "C3": "HOLD",
+    "C4": "FAIL",
+    "C5": "HOLD"
+   }
+  },
+  {
+   "fixture": "F6",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "HOLD",
+    "C2": "HOLD",
+    "C3": "HOLD",
+    "C4": "HOLD",
+    "C5": "FAIL"
+   }
+  },
+  {
+   "fixture": "F7",
+   "expected": "NOT-CERTIFIED",
+   "got": "NOT-CERTIFIED",
+   "conditions": {
+    "C1": "FAIL",
+    "C2": "NOT EVALUABLE",
+    "C3": "HOLD",
+    "C4": "NOT EVALUABLE",
+    "C5": "HOLD"
+   }
+  }
+ ],
+ "band": [
+  {
+   "instance": "V1",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V1",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V2",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V2",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V3",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V3",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V4",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V4",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V5",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V5",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V6",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V6",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V7",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V7",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V8",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V8",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V9",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V9",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V10",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V10",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V11",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V11",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V12",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V12",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V13",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V13",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V14",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V14",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V15",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V15",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V16",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V16",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V17",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V17",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V18",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V18",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V19",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V19",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V20",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V20",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V21",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V21",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V22",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V22",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V23",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V23",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V24",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V24",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V25",
+   "map": "x2",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  },
+  {
+   "instance": "V25",
+   "map": "half",
+   "verdict": "NOT-CERTIFIED",
+   "c1": "FAIL"
+  }
+ ],
+ "sensitivity": {
+  "MAIN v1": {
+   "mean_diffs": {
+    "isolated": -0.1467270110282199,
+    "frozen": -0.04798964752946261,
+    "shuffled": -0.10390751702886808
+   },
+   "replicate_separation": false,
+   "supremum_margin": null,
+   "predicate_holds_for_some_positive_m": false
+  },
+  "MAIN2 v2": {
+   "mean_diffs": {
+    "isolated": -0.09069662936533784,
+    "frozen": 0.008040734133419436,
+    "shuffled": -0.0553860552492168
+   },
+   "replicate_separation": false,
+   "supremum_margin": null,
+   "predicate_holds_for_some_positive_m": false
+  },
+  "MAIN3 v3": {
+   "mean_diffs": {
+    "isolated": 0.14968003297653565,
+    "frozen": 0.24841739647529293,
+    "shuffled": 0.1471611795869805
+   },
+   "replicate_separation": true,
+   "supremum_margin": 0.1471611795869805,
+   "predicate_holds_for_some_positive_m": true
+  },
+  "PROBE v3": {
+   "mean_diffs": {
+    "isolated": 0.12358146086507715,
+    "frozen": 0.20731316097111063,
+    "shuffled": 0.12200396582661266
+   },
+   "replicate_separation": true,
+   "supremum_margin": 0.12200396582661266,
+   "predicate_holds_for_some_positive_m": true
+  }
+ }
+}
