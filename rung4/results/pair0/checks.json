@@ -1,0 +1,10 @@
+{
+ "pair": 0,
+ "failures": [],
+ "maxdiff": 0.0,
+ "extract": true,
+ "hash": true,
+ "sizes": true,
+ "multisets": true,
+ "searches": 296
+}

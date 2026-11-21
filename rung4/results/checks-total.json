@@ -1,0 +1,31 @@
+{
+ "failures": [],
+ "field": {
+  "cuts": 48,
+  "agree": 48,
+  "restarts": 24,
+  "restartok": 24
+ },
+ "region": {
+  "cuts": 48,
+  "agree": 48,
+  "restarts": 24,
+  "restartok": 24
+ },
+ "pair0": {
+  "extract": true,
+  "hash": true,
+  "sizes": true,
+  "multisets": true,
+  "searches": 296,
+  "maxdiff": 0.0
+ },
+ "pair1": {
+  "extract": true,
+  "hash": true,
+  "sizes": true,
+  "multisets": true,
+  "searches": 296,
+  "maxdiff": 0.0
+ }
+}

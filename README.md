@@ -34,6 +34,11 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   the Lean dispositions, and what rung 4 inherits. The code,
   registration, proof file, and result artifacts are under
   rung3/.
+- RUNG4.md — rung 4 (transfer) executed: the registration, both
+  pairs' raw replicates, the decision, the selection-identity
+  mechanism, the Lean dispositions, and what rung 5 inherits.
+  The code, registration, proof file, and result artifacts are
+  under rung4/.
 
 ## State, plainly
 
@@ -61,6 +66,16 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   proved (T3.5 in conditional form; T3.8 stands as a named
   premise, unproved). The rung's capability claim itself is
   NOT in this list: it is falsified, next section.
+- Rung 4 — transfer, executed (RUNG4.md): the verification
+  stack under the rung is verified — 16 gossip runs
+  replay-exact against an independent checker, 96/96 append-cut
+  DET=TAL agreements, 48/48 restart agreements, extraction and
+  artifact facts (bit sizes, entry multisets, canonical
+  hashes) verified on the persisted artifacts, 592 searches
+  recomputed exactly with max difference 0.0 — and 5 of the
+  rung's 6 Lean obligations are proved (T4.5 stands as a named
+  premise for rung 6, unproved). The rung's transfer claim
+  itself is NOT in this list: it is falsified, next section.
 
 **Falsified.** Rung 3's claim (SPEC.md section 2.2): in both
 registered families the joint system failed to beat at least
@@ -74,14 +89,32 @@ flat's spread. The loss is printed in RUNG3.md with the exact
 decision vectors, and it stands until a same-contract
 re-measure at a current pin says otherwise.
 
+Rung 4's claim (SPEC.md section 3.2): the transferred
+interaction structure improved held-out capability by exactly
+zero. In both registered pairs (field → region and
+region → field) the A* arm's capability is bit-identical to
+every control's on every replicate — ΔT = 0.000000 against
+δ = 0.049870 (pair 0) and δ = 0.021497 (pair 1) — and all 32
+permutation-null replicates in each pair have ΔT_null ≥ ΔT, so
+the claim is falsified under both of section 3.5's conditions,
+in both pairs, under the registered global-δ rule and the
+per-arm rule alike. Every arm and the unbounded-search
+diagnostic select the same configuration on every seed: on
+this system the configuration landscape's optimum is the full
+configuration or a lightest-removal neighbor, and the
+search-order carriage channel cannot register any pattern.
+The loss is printed in RUNG4.md with the exact vectors, and it
+stands until a same-contract re-measure at a current pin says
+otherwise.
+
 **Proposed.** Everything else in SPEC.md: rung 2 (noisy gossip
-at scale — its execution is a separate lane), rungs 4–6
-(transfer, compounding over time, the certificate),
+at scale — its execution is a separate lane), rungs 5–6
+(compounding over time, the certificate),
 the endgame interfaces, the optimization problem beyond its
 seed instance, and both domain registrations. The spec carries
-27 theorem obligations for rungs 3–6; rung 3's eight are
-dispositioned above and in RUNG3.md, and the rest are unproved,
-as the spec says.
+27 theorem obligations for rungs 3–6; rung 3's eight and rung
+4's six are dispositioned above and in RUNG3.md / RUNG4.md, and
+the rest are unproved, as the spec says.
 
 **Not claimed.** Emergent intelligence, at any rung so far. Any
 result in fuzzing or in NPC gameplay — no battery has run in
