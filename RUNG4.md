@@ -415,3 +415,16 @@ about the view, not a claim about the system.
   summaries landed under rung4/results/.
 - This record: ~/workspace/research/
   emergence-rung4-2026-11-21.md — landed as RUNG4.md.
+
+## Premise audit addendum (2026-11-21)
+
+The derivation-graph audit named at rung 6 has been executed;
+its record is ~/workspace/research/emergence-premise-audit-2026-11-21.md.
+Outcome for this rung's premise list: **T4.5 stays PREMISE.**
+Its antecedent is rung 6's certificate conditions, whose
+threshold does not exist because the rung 2–5 records do not
+separate; the audit's section 4 names exactly what would
+discharge it (the soundness theorem proved, the embedding
+terms formalized, a separating record set). No other line of
+this record changes, and the falsified claim above stands as
+recorded.

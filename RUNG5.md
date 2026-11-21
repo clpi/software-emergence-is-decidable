@@ -407,3 +407,33 @@ and the stronger claim is what died.
    constant (≥ 3 reports) is inherited a fourth time as the
    only measured constant; its sensitivity is still
    unmeasured.
+
+## Premise audit addendum (2026-11-21)
+
+The derivation-graph audit named at rung 6 has been executed;
+its record is ~/workspace/research/emergence-premise-audit-2026-11-21.md.
+Outcomes for this rung's premise list:
+
+- **T5.6 is DISCHARGED — PROVED in conditional form for the
+  concrete measure.** The audit's Lean proof (landed in the
+  repo under the audit directory) instantiates the premise's
+  abstract measure to the view's actual engaged-weight sum
+  and proves the premise's own implication; cold compile
+  clean under Lean 4.19.0, core only, no sorry, axioms within
+  {propext, Quot.sound}. One hypothesis is named in the
+  proof: duplicate-free edge families, constructional here
+  (one edge per tick). The antecedent's per-pair truth is
+  unchanged — it held at exactly one of 56 pairs — and the
+  falsified compounding claim above stands as recorded.
+- **T5.4 stays PREMISE.** The audit executed its full
+  derivation-graph examination — the graph enumerated from
+  the code, a static scan finding no influence-reduction
+  route, and a dynamic re-run over the persisted logs
+  (prefix folds and restarts 8 of 8 in each family, influence
+  probe 24 of 24 in each family) — and verified the premise's
+  content for this implementation. It stays a premise because
+  the claim quantifies over any lawful implementation's
+  derivation graph and the spec's discharge route for it is
+  this audit over the endgame's derivation machinery, which
+  has not landed. The audit's section 5.4 names exactly what
+  would discharge it.

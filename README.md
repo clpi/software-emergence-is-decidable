@@ -78,7 +78,10 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   tally composition on every run, budgets componentwise equal
   on every run — and 7 of the rung's 8 Lean obligations are
   proved (T3.5 in conditional form; T3.8 stands as a named
-  premise, unproved). The rung's capability claim itself is
+  premise, unproved — the premise audit of 2026-11-21, in
+  the audit directory, traced its discharge route to rung
+  6's soundness theorem and it stands as a premise still).
+  The rung's capability claim itself is
   NOT in this list: it is falsified, next section.
 - Rung 4 — transfer, executed (RUNG4.md): the verification
   stack under the rung is verified — 16 gossip runs
@@ -88,7 +91,9 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   hashes) verified on the persisted artifacts, 592 searches
   recomputed exactly with max difference 0.0 — and 5 of the
   rung's 6 Lean obligations are proved (T4.5 stands as a named
-  premise for rung 6, unproved). The rung's transfer claim
+  premise for rung 6, unproved — the 2026-11-21 premise audit
+  traced its discharge route and it stands as a premise
+  still). The rung's transfer claim
   itself is NOT in this list: it is falsified, next section.
 - Rung 5 — compounding over time, executed (RUNG5.md): the
   verification stack under the rung is verified — 80 runs
@@ -97,8 +102,11 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   restart agreements, 16/16 checkpoint views and 16/16
   reverse-order evaluations recomputed exactly — and 4 of
   the rung's 6 Lean obligations are proved (T5.4 stands as a
-  premise by construction review; T5.6 stands as a named
-  premise for rung 6, unproved). The rung's compounding
+  premise by construction review, its content verified by
+  the 2026-11-21 premise audit in the audit directory; T5.6
+  was discharged by that audit — proved in conditional form
+  for the concrete measure, in the audit directory's Lean
+  file). The rung's compounding
   claim itself is NOT in this list: it is falsified, next
   section.
 - Rung 6 — the certificate, executed (RUNG6.md): DECIDE, the
@@ -198,12 +206,14 @@ interfaces; the optimization problem beyond its seed
 instance; and both domain registrations. The spec carries 27
 theorem obligations for rungs 3–6; rung 3's eight, rung 4's
 six, rung 5's six, and rung 6's seven are dispositioned above
-and in RUNG3.md / RUNG4.md / RUNG5.md / RUNG6.md. Four
+and in RUNG3.md / RUNG4.md / RUNG5.md / RUNG6.md. Three
 premises remain open across the ladder — rung 3's deadness
 obligation, rung 4's structure obligation, and rung 5's
-compounding and view-determination obligations — each with
-its discharge route (the derivation-graph audit of SPEC.md
-section 6.3) named and not yet executed.
+view-determination obligation. The derivation-graph audit
+of SPEC.md section 6.3 was executed on 2026-11-21 (the
+audit directory and its record): it discharged rung 5's
+compounding obligation and traced each remaining premise
+to the exact link its discharge still needs.
 
 **The ladder is complete.** Six rungs executed; every
 registered capability claim falsified by its own battery;

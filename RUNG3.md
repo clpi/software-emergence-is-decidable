@@ -390,3 +390,15 @@ has run in either).
    in field3 it is nearly free. Any transfer of interaction
    structure (rung 4's object) is family-dependent in sign —
    measure per family.
+
+## Premise audit addendum (2026-11-21)
+
+The derivation-graph audit named at rung 6 has been executed;
+its record is ~/workspace/research/emergence-premise-audit-2026-11-21.md.
+Outcome for this rung's premise list: **T3.8 stays PREMISE.**
+Its discharge route runs through rung 6's soundness theorem,
+whose threshold derivation failed because the rung 2–5 records
+do not separate, and its antecedent remains NOT EVALUABLE at
+this rung's block counts. The audit's section 4 names exactly
+what would discharge it. No other line of this record changes,
+and the falsified claim above stands as recorded.

@@ -390,3 +390,20 @@ procedure verified and its precondition printed as failed.
 Any continuation is a new battery under a new registration
 — pre-registered margin, persisted views, extension-stable
 edges — not a reinterpretation of these records.
+
+## Premise audit addendum (2026-11-21)
+
+The derivation-graph audit named in section 8 has been
+executed; its record is
+~/workspace/research/emergence-premise-audit-2026-11-21.md,
+landed in the program repo under the audit directory together
+with its proof file and audit script. Outcome: **the debt is
+reduced from four carried premises to three.** T5.6 is
+discharged — proved in conditional form for the concrete
+measure (see the rung-5 record's audit addendum). T3.8, T4.5,
+and T5.4 are carried, each with the audit's named discharge
+route; T5.4's content was verified by the executed audit and
+it stays a premise for the reason the audit's section 5.4
+states. No verdict in this record changes: every
+NOT-CERTIFIED verdict rested on C1 and C5 alone, and none of
+the four premises was depended on by any of them.
