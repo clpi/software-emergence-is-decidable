@@ -29,6 +29,11 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   G5 and G6.
 - PROGRAM.md — the program record: Chris's directives in his
   words, the ladder, the discipline, and the state of each rung.
+- RUNG3.md — rung 3 (composition) executed: the registration,
+  both batteries' raw replicates, the decision, the ablation,
+  the Lean dispositions, and what rung 4 inherits. The code,
+  registration, proof file, and result artifacts are under
+  rung3/.
 
 ## State, plainly
 
@@ -47,14 +52,36 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   clpi/software-has-a-highest-minimal-axis at
   63d9d3fdce1f81c81cd5cda2bd9850b0c1494646, cold gate PASS. This
   repo builds on it and does not restate or re-prove it.
+- Rung 3 — composition, executed (RUNG3.md): the verification
+  stack under the rung is verified — 336 runs replay-exact
+  against an independent checker, 2352/2352 append-cut DET=TAL
+  agreements, 672/672 restart agreements, the second-order
+  tally composition on every run, budgets componentwise equal
+  on every run — and 7 of the rung's 8 Lean obligations are
+  proved (T3.5 in conditional form; T3.8 stands as a named
+  premise, unproved). The rung's capability claim itself is
+  NOT in this list: it is falsified, next section.
+
+**Falsified.** Rung 3's claim (SPEC.md section 2.2): in both
+registered families the joint system failed to beat at least
+one control arm by the registered margin — NO WIN in field3
+and NO WIN in region3, under the registered per-arm rule and
+under section 1.9's global delta alike. The joint system has
+the highest mean capability of all eight arms in both families
+and beats the frozen-partition, isolated, and shuffled arms
+beyond their spreads; it does not beat level-1 alone beyond
+flat's spread. The loss is printed in RUNG3.md with the exact
+decision vectors, and it stands until a same-contract
+re-measure at a current pin says otherwise.
 
 **Proposed.** Everything else in SPEC.md: rung 2 (noisy gossip
-at scale — its execution is a separate lane), rungs 3–6
-(composition, transfer, compounding over time, the certificate),
+at scale — its execution is a separate lane), rungs 4–6
+(transfer, compounding over time, the certificate),
 the endgame interfaces, the optimization problem beyond its
 seed instance, and both domain registrations. The spec carries
-27 theorem obligations for rungs 3–6; none is proved at this
-repo's founding, and the spec says so.
+27 theorem obligations for rungs 3–6; rung 3's eight are
+dispositioned above and in RUNG3.md, and the rest are unproved,
+as the spec says.
 
 **Not claimed.** Emergent intelligence, at any rung so far. Any
 result in fuzzing or in NPC gameplay — no battery has run in

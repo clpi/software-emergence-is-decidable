@@ -1,0 +1,33 @@
+{
+ "battery": "field3",
+ "family": "field",
+ "n": 256,
+ "ticks": 32,
+ "seeds": [
+  2026112101,
+  2026112102,
+  2026112103,
+  2026112104,
+  2026112105,
+  2026112106,
+  2026112107,
+  2026112108
+ ],
+ "split_seed": 2026112199,
+ "arms": [
+  "joint",
+  "flat",
+  "frozen-partition",
+  "isolated",
+  "frozen",
+  "shuffled",
+  "freeze-1",
+  "freeze-2"
+ ],
+ "fticks": [
+  8,
+  16,
+  24
+ ],
+ "kappa": 1
+}

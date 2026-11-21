@@ -1,0 +1,1076 @@
+{
+ "battery": "field3",
+ "runs": {
+  "flat-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.075,
+   "replay_steps": 66852,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.083,
+   "replay_steps": 66914,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.1,
+   "replay_steps": 67135,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.157,
+   "replay_steps": 67008,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.088,
+   "replay_steps": 66865,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.186,
+   "replay_steps": 66675,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.082,
+   "replay_steps": 66719,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "flat-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.094,
+   "replay_steps": 67222,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.186,
+   "replay_steps": 129394,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.114,
+   "replay_steps": 128249,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.19,
+   "replay_steps": 125093,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.187,
+   "replay_steps": 130389,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.207,
+   "replay_steps": 131600,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.121,
+   "replay_steps": 126330,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.19,
+   "replay_steps": 134336,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-1-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.192,
+   "replay_steps": 125919,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.384,
+   "replay_steps": 140163,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.127,
+   "replay_steps": 134245,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.146,
+   "replay_steps": 150375,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.252,
+   "replay_steps": 138863,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.181,
+   "replay_steps": 132640,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.123,
+   "replay_steps": 138357,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.182,
+   "replay_steps": 136768,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "freeze-2-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.138,
+   "replay_steps": 143675,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.111,
+   "replay_steps": 77180,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.174,
+   "replay_steps": 78808,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.1,
+   "replay_steps": 75151,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.218,
+   "replay_steps": 77229,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.076,
+   "replay_steps": 75555,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.103,
+   "replay_steps": 74601,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.19,
+   "replay_steps": 77053,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-partition-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.106,
+   "replay_steps": 75640,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.154,
+   "replay_steps": 127384,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.231,
+   "replay_steps": 126687,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.195,
+   "replay_steps": 123094,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.133,
+   "replay_steps": 128084,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.3,
+   "replay_steps": 132014,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.208,
+   "replay_steps": 123259,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.178,
+   "replay_steps": 132678,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "frozen-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.383,
+   "replay_steps": 125442,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "generator-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.181,
+   "replay_steps": 127384,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1267876,
+     "fold_steps": 9583
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3588637,
+     "fold_steps": 42167
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5786027,
+     "fold_steps": 82069
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.106,
+   "replay_steps": 126687,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1270658,
+     "fold_steps": 9606
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3597495,
+     "fold_steps": 41671
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5812996,
+     "fold_steps": 81034
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.173,
+   "replay_steps": 123094,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1267929,
+     "fold_steps": 9585
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3604026,
+     "fold_steps": 41669
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5834755,
+     "fold_steps": 79785
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.193,
+   "replay_steps": 128084,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1270528,
+     "fold_steps": 9632
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3596890,
+     "fold_steps": 41897
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5807023,
+     "fold_steps": 81930
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.182,
+   "replay_steps": 132014,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269473,
+     "fold_steps": 9604
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3588356,
+     "fold_steps": 42685
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5760536,
+     "fold_steps": 84512
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.185,
+   "replay_steps": 123259,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268593,
+     "fold_steps": 9585
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3609978,
+     "fold_steps": 41394
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5845669,
+     "fold_steps": 79250
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.297,
+   "replay_steps": 132678,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269489,
+     "fold_steps": 9609
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3584971,
+     "fold_steps": 42766
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5753556,
+     "fold_steps": 84194
+    }
+   },
+   "formation_ok": true
+  },
+  "generator-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.11,
+   "replay_steps": 125442,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269164,
+     "fold_steps": 9618
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3596562,
+     "fold_steps": 41676
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5814970,
+     "fold_steps": 80771
+    }
+   },
+   "formation_ok": true
+  },
+  "isolated-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.008,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.006,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.056,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.006,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.005,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.004,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.004,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "isolated-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.005,
+   "replay_steps": 28672,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "joint-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.169,
+   "replay_steps": 125764,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.112,
+   "replay_steps": 124933,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.21,
+   "replay_steps": 127305,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.684,
+   "replay_steps": 126681,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.204,
+   "replay_steps": 121535,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269100,
+     "fold_steps": 9549
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3614752,
+     "fold_steps": 41146
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5865226,
+     "fold_steps": 78641
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.122,
+   "replay_steps": 129508,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1267604,
+     "fold_steps": 9619
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590812,
+     "fold_steps": 42537
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5792404,
+     "fold_steps": 82617
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.114,
+   "replay_steps": 131836,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268918,
+     "fold_steps": 9583
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3586359,
+     "fold_steps": 42689
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5767493,
+     "fold_steps": 84079
+    }
+   },
+   "formation_ok": true
+  },
+  "joint-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.2,
+   "replay_steps": 125512,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268401,
+     "fold_steps": 9597
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3596494,
+     "fold_steps": 41674
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5809591,
+     "fold_steps": 80999
+    }
+   },
+   "formation_ok": true
+  },
+  "shuffled-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.119,
+   "replay_steps": 161455,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.187,
+   "replay_steps": 163132,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.315,
+   "replay_steps": 174248,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.197,
+   "replay_steps": 160716,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep5": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.474,
+   "replay_steps": 164445,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep6": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.266,
+   "replay_steps": 172368,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep7": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.171,
+   "replay_steps": 162701,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  },
+  "shuffled-rep8": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.287,
+   "replay_steps": 149022,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "formation_ok": true
+  }
+ },
+ "failures": [],
+ "append_cut_checks": 504,
+ "append_cut_agree": 504,
+ "restart_checks": 48,
+ "restart_agree": 48,
+ "pair_composition_checks": 72,
+ "pair_composition_agree": 72
+}

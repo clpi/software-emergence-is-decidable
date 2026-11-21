@@ -1,0 +1,2140 @@
+{
+ "battery": "field3-abl",
+ "runs": {
+  "abl0-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.172,
+   "replay_steps": 120233,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl0-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.08,
+   "replay_steps": 119216,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl0-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.147,
+   "replay_steps": 121573,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl0-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.051,
+   "replay_steps": 120144,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl1-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.053,
+   "replay_steps": 122367,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl1-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.177,
+   "replay_steps": 121963,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl1-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.176,
+   "replay_steps": 124678,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl1-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.186,
+   "replay_steps": 124714,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl10-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.124,
+   "replay_steps": 123508,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl10-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.08,
+   "replay_steps": 123367,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl10-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.091,
+   "replay_steps": 125656,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl10-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.108,
+   "replay_steps": 125489,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl11-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.091,
+   "replay_steps": 121796,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl11-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.115,
+   "replay_steps": 121003,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl11-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.173,
+   "replay_steps": 123798,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl11-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.107,
+   "replay_steps": 122973,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl12-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.152,
+   "replay_steps": 120098,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl12-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.095,
+   "replay_steps": 118702,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl12-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.308,
+   "replay_steps": 121740,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl12-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.089,
+   "replay_steps": 120630,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl13-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.092,
+   "replay_steps": 122155,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl13-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.102,
+   "replay_steps": 120650,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl13-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.103,
+   "replay_steps": 124257,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl13-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.108,
+   "replay_steps": 123855,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl14-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.107,
+   "replay_steps": 123259,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl14-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.09,
+   "replay_steps": 124303,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl14-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.13,
+   "replay_steps": 126731,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl14-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.155,
+   "replay_steps": 126328,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl15-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.098,
+   "replay_steps": 119245,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl15-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.085,
+   "replay_steps": 117737,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl15-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.105,
+   "replay_steps": 119341,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl15-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.147,
+   "replay_steps": 118634,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl16-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.195,
+   "replay_steps": 121095,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl16-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.103,
+   "replay_steps": 120581,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl16-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.142,
+   "replay_steps": 122967,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl16-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.184,
+   "replay_steps": 123505,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl17-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.193,
+   "replay_steps": 122427,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl17-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.203,
+   "replay_steps": 122629,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl17-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.155,
+   "replay_steps": 123490,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl17-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.114,
+   "replay_steps": 123587,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl18-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.11,
+   "replay_steps": 121879,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl18-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.168,
+   "replay_steps": 121068,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl18-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.16,
+   "replay_steps": 124485,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl18-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.091,
+   "replay_steps": 123475,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl2-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.104,
+   "replay_steps": 123831,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl2-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.157,
+   "replay_steps": 123218,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl2-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.175,
+   "replay_steps": 126145,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl2-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.148,
+   "replay_steps": 125470,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl3-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.187,
+   "replay_steps": 124567,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl3-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.24,
+   "replay_steps": 124614,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl3-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.106,
+   "replay_steps": 126788,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl3-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.094,
+   "replay_steps": 126028,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl4-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.119,
+   "replay_steps": 123689,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl4-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.109,
+   "replay_steps": 123795,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl4-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.099,
+   "replay_steps": 124340,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl4-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.109,
+   "replay_steps": 123133,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl5-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.105,
+   "replay_steps": 123607,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl5-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.099,
+   "replay_steps": 123658,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl5-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.113,
+   "replay_steps": 126436,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl5-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.095,
+   "replay_steps": 124978,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl6-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.091,
+   "replay_steps": 123622,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl6-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.086,
+   "replay_steps": 122872,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl6-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.085,
+   "replay_steps": 126416,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl6-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.094,
+   "replay_steps": 125686,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl7-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.1,
+   "replay_steps": 123459,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl7-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.176,
+   "replay_steps": 123103,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl7-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.098,
+   "replay_steps": 126043,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl7-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.203,
+   "replay_steps": 125692,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl8-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.063,
+   "replay_steps": 123042,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl8-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.092,
+   "replay_steps": 123000,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl8-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.098,
+   "replay_steps": 124372,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl8-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.203,
+   "replay_steps": 124956,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  },
+  "abl9-rep1": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.095,
+   "replay_steps": 123440,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1268206,
+     "fold_steps": 9578
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3593357,
+     "fold_steps": 41862
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5801128,
+     "fold_steps": 81120
+    }
+   },
+   "formation_ok": true
+  },
+  "abl9-rep2": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.157,
+   "replay_steps": 122712,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1271108,
+     "fold_steps": 9688
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3603997,
+     "fold_steps": 41822
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5824948,
+     "fold_steps": 80285
+    }
+   },
+   "formation_ok": true
+  },
+  "abl9-rep3": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.09,
+   "replay_steps": 125452,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269561,
+     "fold_steps": 9666
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3590160,
+     "fold_steps": 41944
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5793335,
+     "fold_steps": 81559
+    }
+   },
+   "formation_ok": true
+  },
+  "abl9-rep4": {
+   "steps_ok": true,
+   "bits_ok": true,
+   "records_ok": true,
+   "replay_wall_s": 0.094,
+   "replay_steps": 123844,
+   "replay_ok": true,
+   "cut_agree": 7,
+   "tally_final_ok": true,
+   "restarts": {
+    "8": {
+     "ok": true,
+     "prefix_bytes": 1269641,
+     "fold_steps": 9558
+    },
+    "16": {
+     "ok": true,
+     "prefix_bytes": 3606422,
+     "fold_steps": 41997
+    },
+    "24": {
+     "ok": true,
+     "prefix_bytes": 5820047,
+     "fold_steps": 81266
+    }
+   },
+   "formation_ok": true
+  }
+ },
+ "failures": [],
+ "append_cut_checks": 532,
+ "append_cut_agree": 532,
+ "restart_checks": 228,
+ "restart_agree": 228,
+ "pair_composition_checks": 76,
+ "pair_composition_agree": 76
+}
