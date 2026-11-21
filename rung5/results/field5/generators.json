@@ -1,0 +1,1474 @@
+[
+ {
+  "arm": "clean",
+  "seed": 2026889101,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8901300236406587,
+  "work": 0.8864617576156006,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18099124
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6983397807865884,
+    "work": 0.6912283585360501,
+    "coverage": 0.16698903932946485,
+    "hash": "b0ec48f8e738fef20d3f24be1f882ee12a72f295e2eec637aedb38fbdb7fbd56",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 21598
+    }
+   },
+   "2": {
+    "cap": 0.6983397807865884,
+    "work": 0.6912283585360501,
+    "coverage": 0.16698903932946485,
+    "hash": "b0ec48f8e738fef20d3f24be1f882ee12a72f295e2eec637aedb38fbdb7fbd56",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 43196
+    }
+   },
+   "4": {
+    "cap": 0.7354771115409396,
+    "work": 0.7315198334429092,
+    "coverage": 0.3288201160541586,
+    "hash": "d8b5015e6d47154f5aefda718178d786f1d85076c05e9f1701afcb0ee50c6faf",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 129588
+    }
+   },
+   "8": {
+    "cap": 0.7354771115409396,
+    "work": 0.7315198334429092,
+    "coverage": 0.3288201160541586,
+    "hash": "d8b5015e6d47154f5aefda718178d786f1d85076c05e9f1701afcb0ee50c6faf",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 388764
+    }
+   },
+   "16": {
+    "cap": 0.794600257898128,
+    "work": 0.7884724961648021,
+    "coverage": 0.5796260477111541,
+    "hash": "90e5088cd9242c3a55c071fedcc9af54ce01966e70377682859561b47c666e06",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1036704
+    }
+   },
+   "32": {
+    "cap": 0.8495916612937868,
+    "work": 0.8496383957922393,
+    "coverage": 0.8259187620889749,
+    "hash": "636840813f688cf246ea896a2164fbc066d7bfd1ca4a5adfa7eebed13eb91a37",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2656554
+    }
+   },
+   "64": {
+    "cap": 0.8901300236406587,
+    "work": 0.8864617576156006,
+    "coverage": 1.0,
+    "hash": "3a1025154ba4654414d360a2b1f23510785d1f0bf830dbecce26a13acce6bc80",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7062546
+    }
+   },
+   "128": {
+    "cap": 0.8901300236406587,
+    "work": 0.8864617576156006,
+    "coverage": 1.0,
+    "hash": "43033bce54d56d33bdc184aa556e25efae6ecb49fe77ba57c9b21fbb8e20b64b",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18099124
+    }
+   }
+  },
+  "final": "43033bce54d56d33bdc184aa556e25efae6ecb49fe77ba57c9b21fbb8e20b64b",
+  "wall": 0.74,
+  "bytes": 16729712,
+  "file": "generator-rep1.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889102,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8924672254459464,
+  "work": 0.894466359850972,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18288512
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6881742961530183,
+    "work": 0.6928610563225948,
+    "coverage": 0.16698903932946485,
+    "hash": "463f22d3cb1372bfc036313d59eae6e6dc560a656c74820cc4f8b89c17c7c6dc",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 21824
+    }
+   },
+   "2": {
+    "cap": 0.6881742961530183,
+    "work": 0.6928610563225948,
+    "coverage": 0.16698903932946485,
+    "hash": "463f22d3cb1372bfc036313d59eae6e6dc560a656c74820cc4f8b89c17c7c6dc",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 43648
+    }
+   },
+   "4": {
+    "cap": 0.7280303030302998,
+    "work": 0.7342044707429308,
+    "coverage": 0.3288201160541586,
+    "hash": "20b7b59e8e7fb7c6799b800c7f3c1a1c0fc3f40445a366aca32b6c407c9084a3",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 130944
+    }
+   },
+   "8": {
+    "cap": 0.7280303030302998,
+    "work": 0.7342044707429308,
+    "coverage": 0.3288201160541586,
+    "hash": "20b7b59e8e7fb7c6799b800c7f3c1a1c0fc3f40445a366aca32b6c407c9084a3",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 392832
+    }
+   },
+   "16": {
+    "cap": 0.7870298732000842,
+    "work": 0.7970195047118105,
+    "coverage": 0.5796260477111541,
+    "hash": "245406b05b22c1ae00f268249b084697bcdcfdb92fe1543f5ddcb5327f6e0ea2",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1047552
+    }
+   },
+   "32": {
+    "cap": 0.8489630346013299,
+    "work": 0.8568430856892366,
+    "coverage": 0.8259187620889749,
+    "hash": "d28170b54e7460fb3764d125fa34d03e749c9f77401ceacd3c2b6835ce17764a",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2684352
+    }
+   },
+   "64": {
+    "cap": 0.8924672254459464,
+    "work": 0.894466359850972,
+    "coverage": 1.0,
+    "hash": "7d4363a5b7b2b7aa84bb12b730a125c64884f501f6d5242ef78fa74252d381e4",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7136448
+    }
+   },
+   "128": {
+    "cap": 0.8924672254459464,
+    "work": 0.894466359850972,
+    "coverage": 1.0,
+    "hash": "55fbbce389ca0e77eeedec13451616998e1c17c53a4f262f18de657e1d4f6226",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18288512
+    }
+   }
+  },
+  "final": "55fbbce389ca0e77eeedec13451616998e1c17c53a4f262f18de657e1d4f6226",
+  "wall": 0.85,
+  "bytes": 16790048,
+  "file": "generator-rep2.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889103,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8933161401246463,
+  "work": 0.8952443567828151,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 19372884
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6890178379540093,
+    "work": 0.69873986412448,
+    "coverage": 0.16698903932946485,
+    "hash": "3e42ec136153debd329252a4e5fab3394463bcb7c715a0e4e8119f847b5bd982",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 23118
+    }
+   },
+   "2": {
+    "cap": 0.6890178379540093,
+    "work": 0.69873986412448,
+    "coverage": 0.16698903932946485,
+    "hash": "3e42ec136153debd329252a4e5fab3394463bcb7c715a0e4e8119f847b5bd982",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 46236
+    }
+   },
+   "4": {
+    "cap": 0.7294433698689019,
+    "work": 0.7384834538680695,
+    "coverage": 0.3288201160541586,
+    "hash": "abe8fec189809cc34a6650c73e919bd6a62e3b248dc1b7d7cac04d4b64c5d262",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 138708
+    }
+   },
+   "8": {
+    "cap": 0.7294433698689019,
+    "work": 0.7384834538680695,
+    "coverage": 0.3288201160541586,
+    "hash": "abe8fec189809cc34a6650c73e919bd6a62e3b248dc1b7d7cac04d4b64c5d262",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 416124
+    }
+   },
+   "16": {
+    "cap": 0.7897378035675912,
+    "work": 0.7984494849879458,
+    "coverage": 0.5796260477111541,
+    "hash": "ed2024bccffaecbb03812ccd7aff6f9bf67a84156ca22411cf257051b300d3de",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1109664
+    }
+   },
+   "32": {
+    "cap": 0.8490382548893167,
+    "work": 0.8594291036598704,
+    "coverage": 0.8259187620889749,
+    "hash": "effaf1a7ece616f1379ad59ac26c07b719187d2d1de069a33ef3f8c7cd2ecac4",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2843514
+    }
+   },
+   "64": {
+    "cap": 0.8933161401246463,
+    "work": 0.8952443567828151,
+    "coverage": 1.0,
+    "hash": "868dd72d209ed0b509646c2f956ac5510f4fe694f918d2c1b5672fad29b3ba7b",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7559586
+    }
+   },
+   "128": {
+    "cap": 0.8933161401246463,
+    "work": 0.8952443567828151,
+    "coverage": 1.0,
+    "hash": "112e706caa8c8e61f90cb8a9450f8b7e0e4158a1c2b0e5e64873ce4bf7e32db7",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 19372884
+    }
+   }
+  },
+  "final": "112e706caa8c8e61f90cb8a9450f8b7e0e4158a1c2b0e5e64873ce4bf7e32db7",
+  "wall": 0.917,
+  "bytes": 16773288,
+  "file": "generator-rep3.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889104,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8928916827853004,
+  "work": 0.8927186061801451,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 19543836
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6793359123146351,
+    "work": 0.6868069252684635,
+    "coverage": 0.16698903932946485,
+    "hash": "5d8f9a6ed12e5cebec6957102c2eed0424f9e5e0041c2d65af309c588d56d54e",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 23322
+    }
+   },
+   "2": {
+    "cap": 0.6793359123146351,
+    "work": 0.6868069252684635,
+    "coverage": 0.16698903932946485,
+    "hash": "5d8f9a6ed12e5cebec6957102c2eed0424f9e5e0041c2d65af309c588d56d54e",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 46644
+    }
+   },
+   "4": {
+    "cap": 0.7201859015688796,
+    "work": 0.7298871356563672,
+    "coverage": 0.3288201160541586,
+    "hash": "35a7596dc43d2f04da27b783883b93a5a405712b6acdd2eb3edc088bb0661db7",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 139932
+    }
+   },
+   "8": {
+    "cap": 0.7201859015688796,
+    "work": 0.7298871356563672,
+    "coverage": 0.3288201160541586,
+    "hash": "35a7596dc43d2f04da27b783883b93a5a405712b6acdd2eb3edc088bb0661db7",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 419796
+    }
+   },
+   "16": {
+    "cap": 0.7839834515366428,
+    "work": 0.7919351303966693,
+    "coverage": 0.5796260477111541,
+    "hash": "8030438311adebdc196d06920f686fefc3ffba3fe5b46df526ea742a6f048cfc",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1119456
+    }
+   },
+   "32": {
+    "cap": 0.8475392220073078,
+    "work": 0.854229673460443,
+    "coverage": 0.8259187620889749,
+    "hash": "a0b94b95d72b2650bf23ef3df08c94f7a2a2898a0cc0a72b24261e59357f8a05",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2868606
+    }
+   },
+   "64": {
+    "cap": 0.8928916827853004,
+    "work": 0.8927186061801451,
+    "coverage": 1.0,
+    "hash": "46864f98c68e8536866e380a5b8b1418b73d2d2d295d961c7e478ecdfa6442d9",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7626294
+    }
+   },
+   "128": {
+    "cap": 0.8928916827853004,
+    "work": 0.8927186061801451,
+    "coverage": 1.0,
+    "hash": "d1e2f0ac42770dadc67ac9709ed741789757b21b4f922a041de2da31944e0549",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 19543836
+    }
+   }
+  },
+  "final": "d1e2f0ac42770dadc67ac9709ed741789757b21b4f922a041de2da31944e0549",
+  "wall": 1.52,
+  "bytes": 16813512,
+  "file": "generator-rep4.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889105,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8937191059531469,
+  "work": 0.8902312075388966,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18900252
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6886094992477964,
+    "work": 0.6938965592811741,
+    "coverage": 0.16698903932946485,
+    "hash": "1a0157c0428d179f6d650634e5100fcdbdbfa6ae3c9d616cb1c0f01c8a4ab3a6",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 22554
+    }
+   },
+   "2": {
+    "cap": 0.6886094992477964,
+    "work": 0.6938965592811741,
+    "coverage": 0.16698903932946485,
+    "hash": "1a0157c0428d179f6d650634e5100fcdbdbfa6ae3c9d616cb1c0f01c8a4ab3a6",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 45108
+    }
+   },
+   "4": {
+    "cap": 0.7264614227380178,
+    "work": 0.7363960113960101,
+    "coverage": 0.3288201160541586,
+    "hash": "65143408b52ce7b9b481071b6c0a9297b66e6aa577a3e6fd114c36c57b8401fd",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 135324
+    }
+   },
+   "8": {
+    "cap": 0.7264614227380178,
+    "work": 0.7363960113960101,
+    "coverage": 0.3288201160541586,
+    "hash": "65143408b52ce7b9b481071b6c0a9297b66e6aa577a3e6fd114c36c57b8401fd",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 405972
+    }
+   },
+   "16": {
+    "cap": 0.787395228884591,
+    "work": 0.7959072978303736,
+    "coverage": 0.5796260477111541,
+    "hash": "0fe592960a554a8911a3676b9efc1a91b7ce906446a3c40d3fb77d38297a850e",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1082592
+    }
+   },
+   "32": {
+    "cap": 0.8503223726627969,
+    "work": 0.8533859303090042,
+    "coverage": 0.8259187620889749,
+    "hash": "a56d2cdf54c93bd5df6786fec37e4ae40cc19a424ce5d11d34ad3e62a1c0227f",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2774142
+    }
+   },
+   "64": {
+    "cap": 0.8937191059531469,
+    "work": 0.8902312075388966,
+    "coverage": 1.0,
+    "hash": "f730cce30fd6a7696facb2359ded61dafafcd31776ab91a13cbe9e6dc831c212",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7375158
+    }
+   },
+   "128": {
+    "cap": 0.8937191059531469,
+    "work": 0.8902312075388966,
+    "coverage": 1.0,
+    "hash": "716661aedfe11b4f01e55ea26ab8f67ce8b24237d3d191f8a1385c864f4981cb",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18900252
+    }
+   }
+  },
+  "final": "716661aedfe11b4f01e55ea26ab8f67ce8b24237d3d191f8a1385c864f4981cb",
+  "wall": 1.659,
+  "bytes": 16769936,
+  "file": "generator-rep5.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889106,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8948689017838023,
+  "work": 0.9015505150120611,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18968968
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6765473887814323,
+    "work": 0.681596537365769,
+    "coverage": 0.16698903932946485,
+    "hash": "0c2cd8309ee38bd48b4c0fc929319c219c53e8a4ffebbba37bc71db7e292fd71",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 22636
+    }
+   },
+   "2": {
+    "cap": 0.6765473887814323,
+    "work": 0.681596537365769,
+    "coverage": 0.16698903932946485,
+    "hash": "0c2cd8309ee38bd48b4c0fc929319c219c53e8a4ffebbba37bc71db7e292fd71",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 45272
+    }
+   },
+   "4": {
+    "cap": 0.7187835804857097,
+    "work": 0.7270436116589977,
+    "coverage": 0.3288201160541586,
+    "hash": "9cdb6542d7d78a444e73d446de780c42747ddf3bebf7195ecd58714c98b97d88",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 135816
+    }
+   },
+   "8": {
+    "cap": 0.7187835804857097,
+    "work": 0.7270436116589977,
+    "coverage": 0.3288201160541586,
+    "hash": "9cdb6542d7d78a444e73d446de780c42747ddf3bebf7195ecd58714c98b97d88",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 407448
+    }
+   },
+   "16": {
+    "cap": 0.7830808080808112,
+    "work": 0.7942526846373047,
+    "coverage": 0.5796260477111541,
+    "hash": "28f64a1477ad5ce8fa16656d48933cf0f7293f449f26f4ec1a6ad40ac33a6099",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1086528
+    }
+   },
+   "32": {
+    "cap": 0.8473780356759133,
+    "work": 0.8614617576156098,
+    "coverage": 0.8259187620889749,
+    "hash": "4389ceb92000c196982504ed39b208499bbd65d7bf2f9018728d1710e8811932",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2784228
+    }
+   },
+   "64": {
+    "cap": 0.8948689017838023,
+    "work": 0.9015505150120611,
+    "coverage": 1.0,
+    "hash": "40e1de7bf7ab735d9971c1ec659c2c89bdb35ebb9f7f7cc0a13de6717f92e47f",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7401972
+    }
+   },
+   "128": {
+    "cap": 0.8948689017838023,
+    "work": 0.9015505150120611,
+    "coverage": 1.0,
+    "hash": "0d854a3f7c8712a9ba0e070e8c54b9c815c37ef55b475f06678b1f3eea1220bf",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18968968
+    }
+   }
+  },
+  "final": "0d854a3f7c8712a9ba0e070e8c54b9c815c37ef55b475f06678b1f3eea1220bf",
+  "wall": 2.348,
+  "bytes": 16743120,
+  "file": "generator-rep6.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889107,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8911938534278941,
+  "work": 0.8918200745123801,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18903604
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.687234042553193,
+    "work": 0.6793008985316691,
+    "coverage": 0.16698903932946485,
+    "hash": "34f27822ffb49a7fcf5f1d99b68caa3934a2fba45cc3681297d84ea294f1d68b",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 22558
+    }
+   },
+   "2": {
+    "cap": 0.687234042553193,
+    "work": 0.6793008985316691,
+    "coverage": 0.16698903932946485,
+    "hash": "34f27822ffb49a7fcf5f1d99b68caa3934a2fba45cc3681297d84ea294f1d68b",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 45116
+    }
+   },
+   "4": {
+    "cap": 0.7277240490006457,
+    "work": 0.7221126451895686,
+    "coverage": 0.3288201160541586,
+    "hash": "3b068e32618af371342c83cf6ba72e91e52924eeea77eed09068df4f69c0ac16",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 135348
+    }
+   },
+   "8": {
+    "cap": 0.7277240490006457,
+    "work": 0.7221126451895686,
+    "coverage": 0.3288201160541586,
+    "hash": "3b068e32618af371342c83cf6ba72e91e52924eeea77eed09068df4f69c0ac16",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 406044
+    }
+   },
+   "16": {
+    "cap": 0.7910111755856452,
+    "work": 0.7837278106508887,
+    "coverage": 0.5796260477111541,
+    "hash": "a3786e8dd9582f052b3327203755fe4fc657e2aa50646c728bdbee74ddfa8628",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1082784
+    }
+   },
+   "32": {
+    "cap": 0.8524070492155601,
+    "work": 0.8472715318869167,
+    "coverage": 0.8259187620889749,
+    "hash": "c2294b6a66544790f2955ba98b1c28eb2a29473f533d8e8ac7499cb393535b5f",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2774634
+    }
+   },
+   "64": {
+    "cap": 0.8911938534278941,
+    "work": 0.8918200745123801,
+    "coverage": 1.0,
+    "hash": "5c93233ffd8db98ef586b23858fc8845e6f4ac290c6ff69fd4c8892d3d735510",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7376466
+    }
+   },
+   "128": {
+    "cap": 0.8911938534278941,
+    "work": 0.8918200745123801,
+    "coverage": 1.0,
+    "hash": "66aac0162a184f6292260c0e14cd872cf351ba251e75a64d3bafa8dd383595dc",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18903604
+    }
+   }
+  },
+  "final": "66aac0162a184f6292260c0e14cd872cf351ba251e75a64d3bafa8dd383595dc",
+  "wall": 1.886,
+  "bytes": 16790048,
+  "file": "generator-rep7.jsonl"
+ },
+ {
+  "arm": "clean",
+  "seed": 2026889108,
+  "n": 256,
+  "ticks": 128,
+  "family": "field",
+  "cap": 0.8862991618310752,
+  "work": 0.8880013149243915,
+  "coverage": 1.0,
+  "steps": 32768,
+  "sent": 22020096,
+  "delivered": 22020096,
+  "tally": {
+   "records": 65536,
+   "delivered_class": 65536,
+   "ann_delivered": 65536,
+   "dropped": 0,
+   "corr": 0,
+   "misdelivered": 0,
+   "frozen": 0,
+   "shuffled": 0,
+   "filler": 0,
+   "reports": 365056,
+   "sum_abs_recv": 18876788
+  },
+  "cuts": {
+   "1": {
+    "cap": 0.6926391575327766,
+    "work": 0.6987289064212154,
+    "coverage": 0.16698903932946485,
+    "hash": "fa11120b2d3a7907bc59eace6e847b6856070286c32ec1d392d448d63e8d66f6",
+    "tally": {
+     "records": 512,
+     "delivered_class": 512,
+     "ann_delivered": 512,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 512,
+     "sum_abs_recv": 22526
+    }
+   },
+   "2": {
+    "cap": 0.6926391575327766,
+    "work": 0.6987289064212154,
+    "coverage": 0.16698903932946485,
+    "hash": "fa11120b2d3a7907bc59eace6e847b6856070286c32ec1d392d448d63e8d66f6",
+    "tally": {
+     "records": 1024,
+     "delivered_class": 1024,
+     "ann_delivered": 1024,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 1024,
+     "sum_abs_recv": 45052
+    }
+   },
+   "4": {
+    "cap": 0.7300075220288001,
+    "work": 0.7379739206662297,
+    "coverage": 0.3288201160541586,
+    "hash": "10326d3ab2b39025362e55d450c59a74305a80fa6cefa384def4e8ec349261ee",
+    "tally": {
+     "records": 2048,
+     "delivered_class": 2048,
+     "ann_delivered": 2048,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 2560,
+     "sum_abs_recv": 135156
+    }
+   },
+   "8": {
+    "cap": 0.7300075220288001,
+    "work": 0.7379739206662297,
+    "coverage": 0.3288201160541586,
+    "hash": "10326d3ab2b39025362e55d450c59a74305a80fa6cefa384def4e8ec349261ee",
+    "tally": {
+     "records": 4096,
+     "delivered_class": 4096,
+     "ann_delivered": 4096,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 6656,
+     "sum_abs_recv": 405468
+    }
+   },
+   "16": {
+    "cap": 0.7876692456479695,
+    "work": 0.7952005259697572,
+    "coverage": 0.5796260477111541,
+    "hash": "9d9bf6ce1d00e1010f1cb942819394b96a07ae7a580b227e93152ef535253035",
+    "tally": {
+     "records": 8192,
+     "delivered_class": 8192,
+     "ann_delivered": 8192,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 17920,
+     "sum_abs_recv": 1081248
+    }
+   },
+   "32": {
+    "cap": 0.8449333763163537,
+    "work": 0.8528325662941056,
+    "coverage": 0.8259187620889749,
+    "hash": "e215cc86b70010c6bfc3345a064d6723f28f004354f6104f038eaad3f260cf9d",
+    "tally": {
+     "records": 16384,
+     "delivered_class": 16384,
+     "ann_delivered": 16384,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 48128,
+     "sum_abs_recv": 2770698
+    }
+   },
+   "64": {
+    "cap": 0.8862991618310752,
+    "work": 0.8880013149243915,
+    "coverage": 1.0,
+    "hash": "3afb4fc726d727d9a6dd289714b596babd59e43d88edbe0474166974e90e8776",
+    "tally": {
+     "records": 32768,
+     "delivered_class": 32768,
+     "ann_delivered": 32768,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 136192,
+     "sum_abs_recv": 7366002
+    }
+   },
+   "128": {
+    "cap": 0.8862991618310752,
+    "work": 0.8880013149243915,
+    "coverage": 1.0,
+    "hash": "1d57fc1a155bf1a878eea593d14fa3a4951c97d53d799ead2baae358f35047ce",
+    "tally": {
+     "records": 65536,
+     "delivered_class": 65536,
+     "ann_delivered": 65536,
+     "dropped": 0,
+     "corr": 0,
+     "misdelivered": 0,
+     "frozen": 0,
+     "shuffled": 0,
+     "filler": 0,
+     "reports": 365056,
+     "sum_abs_recv": 18876788
+    }
+   }
+  },
+  "final": "1d57fc1a155bf1a878eea593d14fa3a4951c97d53d799ead2baae358f35047ce",
+  "wall": 2.411,
+  "bytes": 16743120,
+  "file": "generator-rep8.jsonl"
+ }
+]

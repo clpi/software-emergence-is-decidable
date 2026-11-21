@@ -1,0 +1,14 @@
+{
+ "counts": {
+  "replay": 80,
+  "cuts": 640,
+  "dettal": 640,
+  "restart": 512,
+  "budget": 80,
+  "views": 16,
+  "order": 16,
+  "frozenlog": 16,
+  "decision": 2
+ },
+ "fails": []
+}

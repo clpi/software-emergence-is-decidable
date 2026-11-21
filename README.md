@@ -39,6 +39,12 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   mechanism, the Lean dispositions, and what rung 5 inherits.
   The code, registration, proof file, and result artifacts are
   under rung4/.
+- RUNG5.md — rung 5 (compounding over time) executed: the
+  registration, both families' raw replicate curves, the
+  decision under both rules, the scope collapse and the
+  attribution counterexample, the Lean dispositions, and what
+  rung 6 inherits. The code, registration, proof file, and
+  result artifacts are under rung5/.
 
 ## State, plainly
 
@@ -76,6 +82,17 @@ emergence from actor interactions** (goal goal_d8666507a5fa).
   rung's 6 Lean obligations are proved (T4.5 stands as a named
   premise for rung 6, unproved). The rung's transfer claim
   itself is NOT in this list: it is falsified, next section.
+- Rung 5 — compounding over time, executed (RUNG5.md): the
+  verification stack under the rung is verified — 80 runs
+  replay-exact against an independent checker, 640/640
+  append-cut DET=TAL agreements at the checkpoints, 512/512
+  restart agreements, 16/16 checkpoint views and 16/16
+  reverse-order evaluations recomputed exactly — and 4 of
+  the rung's 6 Lean obligations are proved (T5.4 stands as a
+  premise by construction review; T5.6 stands as a named
+  premise for rung 6, unproved). The rung's compounding
+  claim itself is NOT in this list: it is falsified, next
+  section.
 
 **Falsified.** Rung 3's claim (SPEC.md section 2.2): in both
 registered families the joint system failed to beat at least
@@ -107,14 +124,30 @@ The loss is printed in RUNG4.md with the exact vectors, and it
 stands until a same-contract re-measure at a current pin says
 otherwise.
 
+Rung 5's claim (SPEC.md section 4.3): capability does not
+compound over time in the registered sense — NO COMPOUNDING.
+In field, the live arm's mean horizon gain is 0.135138
+against the registered margin δ = 0.333693 (and δ_g =
+0.384999 under the global rule), both set by the frozen
+control's spread, so the strict-gain conjunct fails under
+both rules. In region the gain conjunct passes (0.246762
+against δ = 0.082254), but the monotonicity conjunct is
+vacuous — the T5.6 antecedent fails at all 28 checkpoint
+pairs, so no pair is in scope — and the frozen control
+satisfies both conjuncts (gain 0.253562), so the gain is not
+attributable to live accumulation. The claim required both
+families and is dead as registered. The loss is printed in
+RUNG5.md with the exact curves, and it stands until a
+same-contract re-measure at a current pin says otherwise.
+
 **Proposed.** Everything else in SPEC.md: rung 2 (noisy gossip
-at scale — its execution is a separate lane), rungs 5–6
-(compounding over time, the certificate),
-the endgame interfaces, the optimization problem beyond its
-seed instance, and both domain registrations. The spec carries
-27 theorem obligations for rungs 3–6; rung 3's eight and rung
-4's six are dispositioned above and in RUNG3.md / RUNG4.md, and
-the rest are unproved, as the spec says.
+at scale — its execution is a separate lane), rung 6 (the
+certificate), the endgame interfaces, the optimization
+problem beyond its seed instance, and both domain
+registrations. The spec carries 27 theorem obligations for
+rungs 3–6; rung 3's eight, rung 4's six, and rung 5's six are
+dispositioned above and in RUNG3.md / RUNG4.md / RUNG5.md,
+and the rest are unproved, as the spec says.
 
 **Not claimed.** Emergent intelligence, at any rung so far. Any
 result in fuzzing or in NPC gameplay — no battery has run in
