@@ -844,6 +844,23 @@ proved base these obligations build on and are not counted here.
   which keep sampled quantities out of every theorem and
   certificate. A sublinear exact scan, if one exists, is an open
   problem owned by the rung-2 lane; this spec does not assume it.
+  **Standing after the G2 landing (g2/G2.md, measured at the
+  rung-6 head):** the scan as the rungs instantiate it — the
+  checker fold of the recorded log, never a re-run of the
+  generating system — is closed. One indexed pass answers every
+  counterfactual family exactly: tick edges, per-message
+  dependence, and sensitivity, liveness and deadness at any
+  axis count (the last by a coefficient test that decides
+  above the eleven-axis enumeration cap where rung 3 reported
+  lower bounds and no deadness). Outputs are identical to the
+  baseline on every registered fixture and rung artifact the
+  scan touches, at a tenth to a twentieth of the measured
+  cost. What remains of this gap is only the system-level
+  form: a future registration that reinstates re-running the
+  generating system per message would carry a new cost
+  quantity, unmeasured here. The highest-minimal table above
+  the enumeration cap is the rung-6 solver's territory, not
+  this gap.
 - **G3 — system classes for T6.2.** Completeness is over registered
   classes; the registration format for a system class (what makes
   two systems members of one class) is not defined here. Owner: the
